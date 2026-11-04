@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - namespace.yaml
+  - booking-service.yaml
+  - fare-hold-service.yaml
+  - offer-rules-service.yaml
+  - travel-property-service.yaml
+  - notification-service.yaml
